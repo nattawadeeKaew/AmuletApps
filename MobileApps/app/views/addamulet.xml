@@ -1,0 +1,162 @@
+<Alloy>
+    <Window class="container">
+    	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="100%" width="100%"> 
+        <View layout="vertical">   
+        	
+            <ImageView id="preview" onClick="selectPhoto"></ImageView>
+          
+        	<View layout="horizental" height="40" top="10">
+        		<Label id = "name" >ชื่อพระเครื่อง</Label>
+            	<TextField id="titleInput"></TextField>
+            </View>
+            <View layout="horizental" height="40">
+            	<Label id = "division" >หมวด</Label>
+            	<TextField id="divisionInput"></TextField>
+            </View>
+            <View layout="horizental" height="40">
+            	<Label id = "year" >ปี</Label>
+             	<TextField id="yearInput"></TextField>
+             </View>
+             <View layout="horizental" height="40">
+        		<Label id = "group" >สาย</Label>           
+      			<Picker id="groupInput" width="65%" selectionIndicator="true">
+         			 <Column id="column1" >
+               			<Row title="เหนือ"/>
+                		<Row title="กลาง"/>
+                		<Row title="อีสาน"/>
+              			<Row title="ใต้"/>
+        			</Column> 
+        		</Picker>
+        		</View>
+        	<View layout="horizental" height="40">
+        		<Label id = "provice" >จังหวัด</Label> 
+         		<Picker id="proviceInput"  width="65%" selectionIndicator="true"> 
+         			<Column id="column2" > 
+		         		<Row title="กรุงเทพมหานคร "/>
+		         		<Row title="กระบี่ "/>
+		         		<Row title="กาญจนบุรี "/> 
+		         		<Row title="กาฬสินธุ์ "/> 
+		         		<Row title="กำแพงเพชร "/> 
+		         		<Row title="ขอนแก่น "/> 
+		         		<Row title="จันทบุรี "/> 
+		         		<Row title="ฉะเชิงเทรา "/> 
+		         		<Row title="ชลบุรี "/> 
+		         		<Row title="ชัยนาท "/> 
+		         		<Row title="ชัยภูมิ "/> 
+		         		<Row title="ชุมพร "/> 
+		         		<Row title="เชียงราย"/> 
+		         		<Row title="เชียงใหม่ "/> 
+		         		<Row title="ตรัง "/> 
+		         		<Row title="ตราด "/> 
+		         		<Row title="ตาก "/> 
+		         		<Row title="นครนายก "/> 
+		         		<Row title="นครปฐม "/> 
+		         		<Row title="นครพนม"/> 
+		         		<Row title="นครราชสีมา"/> 
+		         		<Row title="นครศรีธรรมราช "/> 
+		         		<Row title="นครสวรรค์ "/> 
+		         		<Row title="นนทบุรี "/> 
+		         		<Row title="นราธิวาส"/> 
+		         		<Row title="น่าน "/> 
+		         		<Row title="บึงกาฬ "/> 
+		         		<Row title="บุรีรัมย์ "/> 
+		         		<Row title="ปทุมธานี "/> 
+		         		<Row title="ประจวบคีรีขันธ์"/> 
+		         		<Row title="ปราจีนบุรี "/> 
+		         		<Row title="ปัตตานี "/> 
+		         		<Row title="พระนครศรีอยุธยา"/> 
+		         		<Row title="พังงา"/> 
+		         		<Row title="พัทลุง"/> 
+		         		<Row title="พิจิตร "/> 
+		         		<Row title="พิษณุโลก "/> 
+		         		<Row title="เพชรบุรี "/> 
+		         		<Row title="เพชรบูรณ์ "/> 
+		         		<Row title="แพร่ "/> 
+		         		<Row title="พะเยา "/> 
+		         		<Row title="ภูเก็ต "/> 
+		         		<Row title="มหาสารคาม "/> 
+		         		<Row title="มุกดาหาร "/> 
+		         		<Row title="แม่ฮ่องสอน "/> 
+		         		<Row title="ยะลา "/> 
+		         		<Row title="ยโสธร "/> 
+		         		<Row title="ร้อยเอ็ด"/> 
+		         		<Row title="ระนอง"/> 
+		         		<Row title="ระยอง"/> 
+		         		<Row title="ราชบุรี"/> 
+		         		<Row title="ลพบุรี "/> 
+		         		<Row title="ลำปาง "/> 
+		         		<Row title="ลำพูน "/> 
+		         		<Row title="เลย "/> 
+		         		<Row title="ศรีสะเกษ"/> 
+		         		<Row title="สกลนคร"/> 
+		         		<Row title="สงขลา "/> 
+		         		<Row title="สตูล"/> 
+		         		<Row title="สมุทรปราการ "/> 
+		         		<Row title="สมุทรสงคราม "/> 
+		         		<Row title="สมุทรสาคร"/> 
+		         		<Row title="สระแก้ว "/> 
+		         		<Row title="สระบุรี"/> 
+		         		<Row title="สิงห์บุรี "/> 
+		         		<Row title="สุโขทัย"/> 
+		         		<Row title="สุพรรณบุรี "/> 
+		         		<Row title="สุราษฎร์ธานี "/> 
+		         		<Row title="สุรินทร์ "/> 
+		         		<Row title="หนองคาย "/> 
+		         		<Row title="หนองบัวลำภู "/> 
+		         		<Row title="อ่างทอง "/> 
+		         		<Row title="อุดรธานี "/> 
+		         		<Row title="อุทัยธานี "/> 
+		         		<Row title="อุตรดิตถ์ "/> 
+		         		<Row title="อุบลราชธานี "/> 
+		         		<Row title="อำนาจเจริญ"/> 
+         			</Column> 
+        		 </Picker> 
+        	</View>
+        	<View layout="horizental" height="40">
+           		<Label id = "types" >ชนิด</Label>
+           		<Picker id="typeInput" width="65%" selectionIndicator="true">
+	          		<Column id="column3" >
+		                <Row title="เหรียญ"/>
+		                <Row title="ผง"/>
+        			</Column> 
+        		</Picker>
+        	</View>	
+        	<View layout="horizental" height="40">
+	            <Label id = "kind" >เนื้อ</Label>
+	            <Picker id="kindInput" width="65%" selectionIndicator="true"> 
+		         	<Column id="column4" > 
+		         		<Row title="เนื้อนวโลหะ "/>
+		         		<Row title="เนื้อนวโลหะกลับดำ "/>
+		         		<Row title="เนื้อสัตตะโลหะ "/> 
+		         		<Row title="เนื้อเบญจโลหะ "/> 
+		         		<Row title="เนื้อทองเหลือง "/> 
+		         		<Row title="เนื้อเมฆพัด "/> 
+		         		<Row title="เนื้อเมษสิทธิ์ "/> 
+		         		<Row title="เนื้อสัมฤทธิ์ "/> 
+		         		<Row title="เนื้อขันลงหิน "/> 
+		         		<Row title="เนื้อทองแดง "/> 
+		         		<Row title="เนื้อทองแดงเถื่อน "/> 
+		         		<Row title="เนื้ออัลปาก้า "/> 
+		         		<Row title="เนื้อทองคำ"/> 
+		         		<Row title="เนื้อโลหะ "/> 
+		         		<Row title="เนื้อชิน "/> 
+		         	</Column> 
+		         </Picker> 
+            </View>	
+            <View layout="horizental" height="110">
+	            <Label id = "observe" >วิธีสังเกต</Label>
+	            <TextArea id="observeInput"
+	            borderWidth="2" borderColor="#bbb" borderRadius="5"
+	            color="#FFFFFF" textAlign="left" right="10"
+	             width="65%" height="80%" />
+            </View>
+            <Label id = "landmarks" >จุดสังเกต</Label>
+            <View layout="horizental" height="110">
+	            <ImageView id="preview1" onClick="selectPhoto1"></ImageView>
+	        	<ImageView id="preview2" onClick="selectPhoto2"></ImageView>
+            </View>
+            <Button id="insertAmuletButton" onClick="addAmuletToCollection"></Button>
+        </View>
+        </ScrollView>
+    </Window>
+</Alloy>

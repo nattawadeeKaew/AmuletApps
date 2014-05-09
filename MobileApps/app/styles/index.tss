@@ -1,0 +1,15 @@
+".container": {
+	backgroundColor:"black"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	
+} ,
+"TableViewRow[platform=android]": { 
+	color: '#FFFFFF',
+    font: { 
+       fontSize: '24' 
+    }, 
+    height: '40' 
+}

@@ -1,0 +1,197 @@
+
+"#titleInput": {
+	
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+   "#name": {
+
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+"#preview": {
+	top:'20',
+	height: '170px',
+	width: '300px',
+	image: "/p9.jpg"
+	 
+   
+   },
+   
+   "#preview1": {
+
+	height: '90px',
+	width: '140px',
+	image: "/p8.jpg",
+	left:'10',
+	right:'2'
+   
+   },
+   
+   "#preview2": {
+	
+	right:'10',
+	
+	height: '90px',
+	width: '140px',
+	image: "/p8.jpg"
+   
+   },
+  
+"#division": {
+
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+"#divisionInput": {
+	
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+
+"#group": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+   
+ "#groupInput": {
+	
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },  
+   
+   "#provice": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+   
+"#proviceInput": {
+	
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+"#year": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+"#yearInput": {
+	
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+"#types": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+"#typeInput": {
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+"#kind": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+"#kindInput": {
+	width: '65%',
+	right: '10',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+"#observe": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+"#observeInput": {
+	
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   },
+   "#landmarks": {
+	
+	color: '#0099FF',
+    font: {
+        fontSize: '15',
+        
+    },
+        left: '10'
+   },
+   "#insertAmuletButton": {
+   	color: '#FFFFFF',
+	width: '90%',
+	height:'5%',
+	bottom:'10dp',
+	top: '10dp',
+	backgroundImage: "/s2.jpg"  
+	 
+	},
+
+
+".container" : {
+  backgroundColor: 'black'
+}

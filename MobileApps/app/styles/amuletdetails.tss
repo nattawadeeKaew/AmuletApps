@@ -1,0 +1,62 @@
+"#titleLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#divisionLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+
+"#groupLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#proviceLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#yearLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#typeLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#kindLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+"#observeLabel": {
+	color: '#FFFFFF',
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},
+
+
+".container" : { 
+   backgroundColor: 'black' 
+}

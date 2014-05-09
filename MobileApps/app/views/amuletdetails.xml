@@ -1,0 +1,15 @@
+<Alloy>
+    <Window class="container">
+        <View layout="vertical">
+            <Label id="titleLabel"></Label>
+            <Label id="divisionLabel"></Label>
+            <Label id="yearLabel"></Label>
+            <Label id="groupLabel"></Label>
+            <Label id="proviceLabel"></Label>
+            <Label id="typeLabel"></Label>
+            <Label id="kindLabel"></Label>
+            <Label id="observeLabel"></Label>
+          
+        </View>
+    </Window>
+</Alloy>

@@ -1,0 +1,14 @@
+<Alloy>
+	
+  <Collection src="amulet"/> 
+    <Window class="container">
+        <!-- Add TableView and  TableViewRow -->
+        <TableView dataCollection="amulet">
+            <TableViewRow title="{title}" division="{division}" year="{year}" groups="{groups}" provice="{provice}"  type="{type}" kind="{kind}" observe="{observe}" onClick="showAmulet"></TableViewRow>
+        </TableView>
+        <!-- Android menu for 'Add Amulet' button. -->
+        <Menu id="menu" platform="android">
+            <MenuItem title="เพิ่มพระ" onClick="addAmulet" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+        </Menu>
+    </Window>
+</Alloy>
