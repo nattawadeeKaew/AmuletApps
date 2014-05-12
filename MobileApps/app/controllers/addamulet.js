@@ -96,3 +96,7 @@ function selectPhoto2(){
            },
     });
 };
+
+function closeWindow() {
+    $.addamulet.close();
+}
