@@ -1,5 +1,8 @@
 ".container": {
-	backgroundColor:"black"
+	backgroundColor:"black",
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: false
 },
 "Label": {
 	width: Ti.UI.SIZE,
@@ -12,4 +15,124 @@
        fontSize: '24' 
     }, 
     height: '40' 
+}
+"#header": {
+	top: Alloy.Globals.top,
+	height: "40dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+},
+".divider": {
+	height: "35dp",
+	width: "3dp",
+	top: "1dp",
+	right: "40dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 0.5 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+}
+
+".divider1": {
+	height: "35dp",
+	width: "3dp",
+	top: "1dp",
+	left: "45dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 0.5 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+}
+".divider2": {
+	height: "35dp",
+	width: "3dp",
+	top: "1dp",
+	right: "80dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 0.5 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+}
+"#addView1": {
+	top: 0,
+	bottom: 0,
+	left: 10,
+	width: "30dp"
+}
+"#addImage1": {
+	height: 30,
+	width: 30,
+	color: "#FFFFFF",
+	backgroundColor: "#000000",
+	image: "/m3.png",
+	touchEnabled: false
+}
+"#addView2": {
+	top: 0,
+	bottom: 0,
+	right: 45,
+	width: "30dp"
+}
+"#addImage2": {
+	height: 30,
+	width: 30,
+	color: "#FFFFFF",
+	backgroundColor: "#000000",
+	image: "/s4.png",
+	touchEnabled: false
+}
+"#addView": {
+	top: 0,
+	bottom: 0,
+	right: 10,
+	width: "30dp"
+}
+
+"#addImage": {
+	height: 30,
+	width: 30,
+	color: "#FFFFFF",
+	backgroundColor: "#000000",
+	image: "/b9.png",
+	touchEnabled: false
+}
+"#addamulettext": {
+	top: 0,
+	bottom: 0,
+	left: 20,
+	width: "200dp"
+}
+"#title": {
+	left: "30dp",
+	color: "#FFFFFF",
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	}
 }
