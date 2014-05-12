@@ -1,11 +1,23 @@
 <Alloy>
-    <Window class="container">
+    <Window class="container" title="Amulet" platform="android,ios">
     	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="100%" width="100%"> 
         <View layout="vertical">   
+        	 <View id="header" layout="horizental" height="40">
+        	 		<View id="addView1" onClick="closeWindow">
+        	 			<ImageView id="addImage1" />
+			      	</View>
+			       <View class="divider1"/>
+			       <View id="addamulettext">
+			      		<Label id="title">เพิ่มพระเครื่อง</Label>
+			      	</View>
+			      	<View class="divider"/>
+			      	<View id="addView" onClick="addAmuletToCollection">
+			        	<ImageView id="addImage"/>
+			      	</View>
+			 </View>
         	
             <ImageView id="preview" onClick="selectPhoto"></ImageView>
-          
-        	<View layout="horizental" height="40" top="10">
+          	<View layout="horizental" height="40" top="10">
         		<Label id = "name" >ชื่อพระเครื่อง</Label>
             	<TextField id="titleInput"></TextField>
             </View>
@@ -155,7 +167,7 @@
 	            <ImageView id="preview1" onClick="selectPhoto1"></ImageView>
 	        	<ImageView id="preview2" onClick="selectPhoto2"></ImageView>
             </View>
-            <Button id="insertAmuletButton" onClick="addAmuletToCollection"></Button>
+            
         </View>
         </ScrollView>
     </Window>
