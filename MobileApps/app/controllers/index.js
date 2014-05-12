@@ -54,3 +54,9 @@ if (OS_ANDROID) {
    $.index.open(); 
 }
 
+function shakeMe(e) {  
+    var animation = require('alloy/animation');  
+    animation.shake($.view2, 500);  
+}  
+  
+$.index.open();
