@@ -2,13 +2,31 @@
 	
   <Collection src="amulet"/> 
     <Window class="container">
-        <!-- Add TableView and  TableViewRow -->
-        <TableView dataCollection="amulet">
-            <TableViewRow title="{title}" division="{division}" year="{year}" groups="{groups}" provice="{provice}"  type="{type}" kind="{kind}" observe="{observe}" onClick="showAmulet"></TableViewRow>
-        </TableView>
-        <!-- Android menu for 'Add Amulet' button. -->
-        <Menu id="menu" platform="android">
-            <MenuItem title="เพิ่มพระ" onClick="addAmulet" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
-        </Menu>
+    	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="100%" width="100%"> 
+        	<View layout="vertical">   
+	        	 <View id="header" layout="horizental" height="40">
+	        	 		<View id="addView1" >
+	        	 			<ImageView id="addImage1" onClick="shakeMe" />
+				      	</View>
+				       <View class="divider1"/>
+				       <View id="addamulettext">
+				      		<Label id="title">กูรูพระเครื่อง</Label>
+				      	</View>
+				      	<View class="divider2"/>
+				       <View id="addView2">
+				        	<ImageView id="addImage2"/>
+				      	</View>
+				      	<View class="divider"/>
+				      	<View id="addView" onClick="addAmulet">
+				        	<ImageView id="addImage"/>
+				      	</View>
+				 	</View>
+			        <!-- Add TableView and  TableViewRow -->
+			        <TableView dataCollection="amulet">
+			            <TableViewRow title="{title}" division="{division}" year="{year}" groups="{groups}" provice="{provice}"  type="{type}" kind="{kind}" observe="{observe}" onClick="showAmulet"></TableViewRow>
+			        </TableView>
+			        
+         	</View>
+        </ScrollView>
     </Window>
 </Alloy>
