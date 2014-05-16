@@ -11,11 +11,11 @@ function Controller() {
         id: "amuletdetails"
     });
     $.__views.amuletdetails && $.addTopLevelView($.__views.amuletdetails);
-    $.__views.__alloyId112 = Ti.UI.createView({
+    $.__views.__alloyId114 = Ti.UI.createView({
         layout: "vertical",
-        id: "__alloyId112"
+        id: "__alloyId114"
     });
-    $.__views.amuletdetails.add($.__views.__alloyId112);
+    $.__views.amuletdetails.add($.__views.__alloyId114);
     $.__views.titleLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -24,7 +24,7 @@ function Controller() {
         left: "10",
         id: "titleLabel"
     });
-    $.__views.__alloyId112.add($.__views.titleLabel);
+    $.__views.__alloyId114.add($.__views.titleLabel);
     $.__views.divisionLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -33,7 +33,7 @@ function Controller() {
         left: "10",
         id: "divisionLabel"
     });
-    $.__views.__alloyId112.add($.__views.divisionLabel);
+    $.__views.__alloyId114.add($.__views.divisionLabel);
     $.__views.yearLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -42,7 +42,7 @@ function Controller() {
         left: "10",
         id: "yearLabel"
     });
-    $.__views.__alloyId112.add($.__views.yearLabel);
+    $.__views.__alloyId114.add($.__views.yearLabel);
     $.__views.groupLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -51,7 +51,7 @@ function Controller() {
         left: "10",
         id: "groupLabel"
     });
-    $.__views.__alloyId112.add($.__views.groupLabel);
+    $.__views.__alloyId114.add($.__views.groupLabel);
     $.__views.proviceLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -60,7 +60,7 @@ function Controller() {
         left: "10",
         id: "proviceLabel"
     });
-    $.__views.__alloyId112.add($.__views.proviceLabel);
+    $.__views.__alloyId114.add($.__views.proviceLabel);
     $.__views.typeLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -69,7 +69,7 @@ function Controller() {
         left: "10",
         id: "typeLabel"
     });
-    $.__views.__alloyId112.add($.__views.typeLabel);
+    $.__views.__alloyId114.add($.__views.typeLabel);
     $.__views.kindLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -78,7 +78,7 @@ function Controller() {
         left: "10",
         id: "kindLabel"
     });
-    $.__views.__alloyId112.add($.__views.kindLabel);
+    $.__views.__alloyId114.add($.__views.kindLabel);
     $.__views.observeLabel = Ti.UI.createLabel({
         color: "#FFFFFF",
         font: {
@@ -87,7 +87,7 @@ function Controller() {
         left: "10",
         id: "observeLabel"
     });
-    $.__views.__alloyId112.add($.__views.observeLabel);
+    $.__views.__alloyId114.add($.__views.observeLabel);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var args = arguments[0] || {};

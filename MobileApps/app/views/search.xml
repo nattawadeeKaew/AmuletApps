@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container" height="100%" width="100%" id="addwin">
+		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="100%" width="100%">
+			<View layout="vertical">
+				<View id="header" layout="horizental" height="40">
+					<View id="search_back" onClick="closeWindow">
+						<ImageView id="addImage1"></ImageView>
+					</View>
+					<View class="divider1"/>
+					<View id="searchText">
+						<TextField id="searchInput"></TextField>
+					</View>
+					<View class="divider"/>
+					<View id="search">
+						<ImageView id="addImage"/>
+					</View>
+				</View>
+
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,15 +1,14 @@
 exports.definition = {
 	config: {
 		columns: {
-		    "title"  : "string",
 		    "division" : "string",
 		    "year" : "int",
 		    "groups" : "string",
 		    "provice" : "string",
 		    "type" : "string",
 		    "kind" : "string",
-		    "observe" : "string"
-		    
+		    "observe" : "string",
+		    "coverpic": "string"
 		},
 		adapter: {
 			type: "sql",

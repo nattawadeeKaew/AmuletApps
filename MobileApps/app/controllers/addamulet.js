@@ -11,8 +11,7 @@ function addAmuletToCollection() {
         provice : $.proviceInput.value,
         type : $.typeInput.value,
         kind : $.kindInput.value,
-        observe : $.observeInput.value  
-       
+        observe : $.observeInput.value
         
     });
     myAmulet.add(amulets);

@@ -1,0 +1,112 @@
+".container": {
+	backgroundColor:"black",
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: false
+},
+
+"#header": {
+	top: Alloy.Globals.top,
+	height: "40dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+},
+".divider": {
+	height: "35dp",
+	width: "3dp",
+	top: "1dp",
+	right: "50dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 0.5 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+}
+
+".divider1": {
+	height: "35dp",
+	width: "3dp",
+	top: "1dp",
+	left: "45dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%",   y:"0%"},
+		endPoint:   { x: "100%", y:"0%"},
+		colors: [
+			{ color: "#000000", offset: 0.0 },
+			{ color: "#000000", offset: 0.5 },
+			{ color: "#000000", offset: 1.0 }
+		]
+	}
+}
+"#search_back": {
+	top: 0,
+	bottom: 0,
+	left: 10,
+	width: "30dp"
+}
+"#addImage1": {
+	height: 30,
+	width: 30,
+	color: "#FFFFFF",
+	backgroundColor: "#000000",
+	image: "/b4.png",
+	touchEnabled: false
+}
+"#search": {
+	top: 0,
+	bottom: 0,
+	right: 10,
+	width: "30dp"
+}
+
+"#addImage": {
+	height: 30,
+	width: 30,
+	color: "#FFFFFF",
+	backgroundColor: "#000000",
+	image: "/s4.png",
+	touchEnabled: false
+}
+"#addamulettext": {
+	top: 0,
+	bottom: 0,
+	left: 20,
+	width: "200dp"
+}
+"#title": {
+	left: "30dp",
+	color: "#FFFFFF",
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	}
+}
+"#searchText": {
+	height: 30,
+	width: 200,
+	color: "#FFFFFF",
+	backgroundColor: "#000000",
+	image: "/b3.png",
+	touchEnabled: false
+}
+"#searchInput": {
+	width: '200',
+	color: '#FFFFFF',
+    font: {
+        fontSize: '15'
+    },
+   }

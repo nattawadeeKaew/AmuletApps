@@ -8,8 +8,7 @@ var args = arguments[0] || {};
  + ", f: " + args.f
  
  );*/
- 
- 
+
 $.titleLabel.text = args.title   || 'Default Title';
 $.divisionLabel.text = args.division || 'Default division';
 $.yearLabel.text = args.year || 'Default year';
